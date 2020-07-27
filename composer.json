@@ -1,0 +1,38 @@
+{
+    "name": "dhamkith/googlemap",
+    "description": "add google map latitude longitude, in laravel framwork",
+    "keywords": [
+        "googlemap",
+        "map",
+        "laravel",
+        "component"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "dhamkith",
+            "email": "dhamkith@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "require-dev": {
+        "mockery/mockery": "^1.3.1",
+        "phpunit/phpunit": "^8.5",
+        "orchestra/testbench": "^5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dhamkith\\Googlemap\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dhamkith\\Googlemap\\GooglemapServiceProvider"
+            ]
+        }
+    }
+
+}
