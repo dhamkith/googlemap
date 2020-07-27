@@ -28,7 +28,7 @@ If is not work then you need to add a provider and alias. Inside of your `config
 'providers' => [
 	//  other providers
 
-	DevMarketer\EasyNav\EasyNavServiceProvider::class,
+	Dhamkith\Googlemap\GooglemapServiceProvider::class,
 ];
 ```
 
@@ -70,5 +70,13 @@ This package is easy to use. It provides a handful of helpful View components.
 ##### [IMPORTANT] What this package does NOT do
 
 This does NOT 
+
+#### 1. Add Style and javascrips file
+
+#### 2. Extends views
+
+#### 3. Use Route for views
+
+
 
 
