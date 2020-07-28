@@ -57,6 +57,14 @@ This generates
 * a view file at `resources/views/vendor/googlemap/view.blade.php`.
 * a style file at `public/css/googlemap.css`.
 * a javascript file at `public/js/googlemap.js`.
+ 
+#### 4. Migrate (OPTIONAL)
+
+php artisan migrate for create locations table
+
+```
+php artisan migrate
+```
 
 ## Usage
 
